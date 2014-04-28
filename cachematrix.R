@@ -4,7 +4,7 @@
 ## The makeCacheMatrix stores the matrix and its inverse in cache. 
 ## It can also be used to set and get the matrix and its inverse values.
 
-makeCacheMatrix == function(x = matrix()) {
+makeCacheMatrix = function(x = matrix()) {
     i = NULL
     set = function(y) {
         x <<- y
